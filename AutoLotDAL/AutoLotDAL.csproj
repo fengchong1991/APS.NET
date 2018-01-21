@@ -51,22 +51,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EF\AutoLotEntities.cs" />
-    <Compile Include="EF\DataInitializer.cs" />
-    <Compile Include="Migrations\201710181255411_InitialCreate.cs" />
-    <Compile Include="Migrations\201710181255411_InitialCreate.Designer.cs">
-      <DependentUpon>201710181255411_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201801201335462_InitialCreate.cs" />
+    <Compile Include="Migrations\201801201335462_InitialCreate.Designer.cs">
+      <DependentUpon>201801201335462_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201710271243590_TimeStamp.cs" />
-    <Compile Include="Migrations\201710271243590_TimeStamp.Designer.cs">
-      <DependentUpon>201710271243590_TimeStamp.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201801201227320_update.cs" />
-    <Compile Include="Migrations\201801201227320_update.Designer.cs">
-      <DependentUpon>201801201227320_update.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201801201230276_update1.cs" />
-    <Compile Include="Migrations\201801201230276_update1.Designer.cs">
-      <DependentUpon>201801201230276_update1.cs</DependentUpon>
+    <Compile Include="Migrations\201801201404106_TestChange.cs" />
+    <Compile Include="Migrations\201801201404106_TestChange.Designer.cs">
+      <DependentUpon>201801201404106_TestChange.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CreditRisk.cs" />
@@ -87,17 +78,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201710181255411_InitialCreate.resx">
-      <DependentUpon>201710181255411_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201801201335462_InitialCreate.resx">
+      <DependentUpon>201801201335462_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201710271243590_TimeStamp.resx">
-      <DependentUpon>201710271243590_TimeStamp.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201801201227320_update.resx">
-      <DependentUpon>201801201227320_update.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201801201230276_update1.resx">
-      <DependentUpon>201801201230276_update1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201801201404106_TestChange.resx">
+      <DependentUpon>201801201404106_TestChange.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

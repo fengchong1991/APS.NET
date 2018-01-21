@@ -13,7 +13,7 @@ namespace AutoLotDAL.Models
         [Key]
         public int CarId { get; set; }
 
-        [StringLength(50)]
+        [StringLength(40)]
         public string Make { get; set; }
 
         [StringLength(50)]
